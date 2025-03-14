@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore datasets
+datasets/
+
+# Ignore compiled Python files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Ignore MONAI-generated cache and large model files
+*.nii.gz
+*.npy
+checkpoints/
