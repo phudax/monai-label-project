@@ -19,6 +19,7 @@ include(${Slicer_USE_FILE})
 #-----------------------------------------------------------------------------
 # Extension modules
 add_subdirectory(AutoSeg)
+add_subdirectory(AutoSeg3d)
 ## NEXT_MODULE
 
 #-----------------------------------------------------------------------------

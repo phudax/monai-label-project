@@ -168,7 +168,8 @@ class AutoSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
         self.addObserver(slicer.mrmlScene, slicer.mrmlScene.EndCloseEvent, self.onSceneEndClose)
 
         # Buttons
-        self.ui.applyButton.connect("clicked(bool)", self.onApplyButton)
+        self.ui.segmentButton.connect("clicked(bool)", self.onSegmentButton)
+        self.ui.loadButton.connect("clicked(bool)", self.onLoadButton)
 
         # Make sure parameter node is initialized (needed for module reload)
         self.initializeParameterNode()
@@ -222,22 +223,22 @@ class AutoSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
 
         if self._parameterNode:
             self._parameterNode.disconnectGui(self._parameterNodeGuiTag)
-            self.removeObserver(self._parameterNode, vtk.vtkCommand.ModifiedEvent, self._checkCanApply)
+            # self.removeObserver(self._parameterNode, vtk.vtkCommand.ModifiedEvent, self._checkCanApply)
         self._parameterNode = inputParameterNode
         if self._parameterNode:
             # Note: in the .ui file, a Qt dynamic property called "SlicerParameterName" is set on each
             # ui element that needs connection.
             self._parameterNodeGuiTag = self._parameterNode.connectGui(self.ui)
-            self.addObserver(self._parameterNode, vtk.vtkCommand.ModifiedEvent, self._checkCanApply)
-            self._checkCanApply()
+            # self.addObserver(self._parameterNode, vtk.vtkCommand.ModifiedEvent, self._checkCanApply)
+            # self._checkCanApply()
 
-    def _checkCanApply(self, caller=None, event=None) -> None:
-        if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
-            self.ui.applyButton.toolTip = _("Compute output volume")
-            self.ui.applyButton.enabled = True
-        else:
-            self.ui.applyButton.toolTip = _("Select input and output volume nodes")
-            self.ui.applyButton.enabled = False
+    # def _checkCanApply(self, caller=None, event=None) -> None:
+    #     if self._parameterNode and self._parameterNode.inputVolume and self._parameterNode.thresholdedVolume:
+    #         self.ui.applyButton.toolTip = _("Compute output volume")
+    #         self.ui.applyButton.enabled = True
+    #     else:
+    #         self.ui.applyButton.toolTip = _("Select input and output volume nodes")
+    #         self.ui.applyButton.enabled = False
 
     def onApplyButton(self) -> None:
         """Run processing when user clicks "Apply" button."""
@@ -252,7 +253,65 @@ class AutoSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
                 self.logic.process(self.ui.inputSelector.currentNode(), self.ui.invertedOutputSelector.currentNode(),
                                    self.ui.imageThresholdSliderWidget.value, not self.ui.invertOutputCheckBox.checked, showResult=False)
 
+    def onSegmentButton(self) -> None:
+        
+        file_path = self.ui.dataPath.currentPath
+        
+        if file_path:
+            slicer.util.loadVolume(file_path)
+        else:
+            print('No path selected')
+            return None
 
+        volumeNode = slicer.util.loadVolume(file_path)
+
+        vrLogic = slicer.modules.volumerendering.logic()
+
+        # Create a default volume rendering display node for the volume.
+        # This will add a new display node if one does not already exist.
+        vrDisplayNode = vrLogic.CreateDefaultVolumeRenderingNodes(volumeNode)
+        
+        # Enable volume rendering (set visibility to True).
+        if vrDisplayNode:
+            vrDisplayNode.SetVisibility(True)
+            print("Volume rendering enabled.")
+        else:
+            print("Failed to create a volume rendering display node.")
+
+    def onLoadButton(self) -> None:
+       
+        for vrNode in slicer.util.getNodesByClass("vtkMRMLVolumeRenderingDisplayNode"):
+            slicer.mrmlScene.RemoveNode(vrNode)
+
+        file_path = self.ui.dataPath.currentPath
+        
+        if file_path:
+            slicer.util.loadVolume(file_path)
+        else:
+            print('No path selected')
+            return None
+
+        volumeNode = slicer.util.loadVolume(file_path)
+
+        if not volumeNode:
+            print("Failed to load volume from:", file_path)
+            return None
+        
+        print("Volume loaded successfully.")
+
+        vrLogic = slicer.modules.volumerendering.logic()
+
+        # Create a default volume rendering display node for the volume.
+        # This will add a new display node if one does not already exist.
+        vrDisplayNode = vrLogic.CreateDefaultVolumeRenderingNodes(volumeNode)
+        
+        # Enable volume rendering (set visibility to True).
+        if vrDisplayNode:
+            vrDisplayNode.SetVisibility(False)
+            print("Volume rendering enabled.")
+        else:
+            print("Failed to create a volume rendering display node.")
+        
 #
 # AutoSegLogic
 #
