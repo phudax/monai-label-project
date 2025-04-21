@@ -1,0 +1,179 @@
+[2025-04-19 20:36:58,187] [9020] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 20:38:36,223] [30256] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 20:38:36,248] [30256] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 20:38:36,248] [30256] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 20:38:36,249] [30256] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 20:38:36,251] [30256] [MainThread] [INFO] (monailabel.datastore.local:594) - Adding New Image: case_000_0000 => case_000_0000.nii.gz
+[2025-04-19 20:38:36,251] [30256] [MainThread] [INFO] (monailabel.datastore.local:594) - Adding New Image: case_001_0000 => case_001_0000.nii.gz
+[2025-04-19 20:38:36,252] [30256] [MainThread] [INFO] (monailabel.datastore.local:594) - Adding New Image: case_002_0000 => case_002_0000.nii.gz
+[2025-04-19 20:38:36,253] [30256] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 3
+[2025-04-19 20:38:36,254] [30256] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 20:38:36,256] [30256] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 20:38:36,256] [30256] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 20:40:09,271] [30392] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 20:40:09,297] [30392] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 20:40:09,298] [30392] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 20:40:09,298] [30392] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 20:40:09,310] [30392] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 20:40:09,310] [30392] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 20:40:09,312] [30392] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 20:40:09,312] [30392] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:31:55,818] [25312] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:31:56,036] [25312] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:31:56,037] [25312] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:31:56,037] [25312] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:31:56,042] [25312] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:31:56,042] [25312] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:31:56,045] [25312] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:31:56,045] [25312] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:36:15,798] [35224] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:36:15,867] [35224] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:36:15,867] [35224] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:36:15,868] [35224] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:36:15,872] [35224] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:36:15,873] [35224] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:36:15,875] [35224] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:36:15,875] [35224] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:38:37,281] [31268] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:38:37,325] [31268] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:38:37,325] [31268] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:38:37,326] [31268] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:38:37,330] [31268] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:38:37,331] [31268] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:38:37,332] [31268] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:38:37,333] [31268] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:39:54,801] [16536] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:39:54,857] [16536] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:39:54,857] [16536] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:39:54,858] [16536] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:39:54,862] [16536] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:39:54,863] [16536] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:39:54,865] [16536] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:39:54,865] [16536] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:45:20,181] [23476] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:45:20,229] [23476] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:45:20,230] [23476] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:45:20,230] [23476] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:45:20,234] [23476] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:45:20,234] [23476] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:45:20,236] [23476] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:45:20,237] [23476] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:46:49,478] [36484] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-19 21:46:49,522] [36484] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-19 21:46:49,522] [36484] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-19 21:46:49,522] [36484] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-19 21:46:49,526] [36484] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-19 21:46:49,527] [36484] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-19 21:46:49,528] [36484] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-19 21:46:49,528] [36484] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-19 21:46:50,742] [36484] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-19 21:46:50,742] [36484] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-19 21:46:50,742] [36484] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-19 21:46:50,743] [36484] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001E3FF8CB640>
+[2025-04-19 21:46:50,743] [36484] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-20 17:53:51,347] [20960] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-20 17:53:51,533] [20960] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-20 17:53:51,533] [20960] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-20 17:53:51,534] [20960] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-20 17:53:51,544] [20960] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-20 17:53:51,544] [20960] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-20 17:53:51,547] [20960] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-20 17:53:51,547] [20960] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-20 17:53:52,835] [20960] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-20 17:53:52,835] [20960] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-20 17:53:52,836] [20960] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-20 17:53:52,836] [20960] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000025DDF10B640>
+[2025-04-20 17:53:52,837] [20960] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-20 18:08:23,960] [10692] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-20 18:08:24,009] [10692] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-20 18:08:24,010] [10692] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-20 18:08:24,011] [10692] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-20 18:08:24,015] [10692] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-20 18:08:24,016] [10692] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-20 18:08:24,018] [10692] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-20 18:08:24,018] [10692] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-20 18:08:25,297] [10692] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-20 18:08:25,297] [10692] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-20 18:08:25,298] [10692] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-20 18:08:25,298] [10692] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x000001F17D7323B0>
+[2025-04-20 18:08:25,299] [10692] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-20 18:08:39,814] [10692] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-20 18:08:39,815] [10692] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_002_0000; Weight: 1745136519
+[2025-04-20 18:08:39,818] [10692] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_002_0000', 'weight': 1745136519, 'path': 'D:\\COMP3900\\studies\\case_002_0000.nii.gz', 'ts': 1745059116, 'name': 'case_002_0000.nii.gz'}
+[2025-04-20 18:09:24,861] [10692] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'lower_extremity_segmentation', 'image': 'case_002_0000', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-04-20 18:26:46,652] [12264] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-20 18:26:46,731] [12264] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-20 18:26:46,731] [12264] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-20 18:26:46,732] [12264] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-20 18:26:46,744] [12264] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-20 18:26:46,744] [12264] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-20 18:26:46,747] [12264] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-20 18:26:46,748] [12264] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-20 18:26:47,311] [12264] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-20 18:26:47,311] [12264] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-20 18:26:47,312] [12264] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-20 18:26:47,312] [12264] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000024B304C60E0>
+[2025-04-20 18:26:47,313] [12264] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-20 18:26:58,514] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-20 18:26:58,515] [12264] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_000_0000; Weight: 1745137618
+[2025-04-20 18:26:58,517] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_000_0000', 'weight': 1745137618, 'path': 'D:\\COMP3900\\studies\\case_000_0000.nii.gz', 'ts': 1745059116, 'name': 'case_000_0000.nii.gz'}
+[2025-04-20 18:27:05,270] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-20 18:27:05,271] [12264] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_001_0000; Weight: 7
+[2025-04-20 18:27:05,273] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_001_0000', 'weight': 7, 'path': 'D:\\COMP3900\\studies\\case_001_0000.nii.gz', 'ts': 1745059116, 'name': 'case_001_0000.nii.gz'}
+[2025-04-20 18:27:15,827] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-20 18:27:15,828] [12264] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_002_0000; Weight: 17
+[2025-04-20 18:27:15,830] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_002_0000', 'weight': 17, 'path': 'D:\\COMP3900\\studies\\case_002_0000.nii.gz', 'ts': 1745059116, 'name': 'case_002_0000.nii.gz', 'strategy': {'random': {'ts': 1745137635, 'client_id': 'user-xyz'}}}
+[2025-04-20 18:27:19,991] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-20 18:27:19,992] [12264] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_001_0000; Weight: 21
+[2025-04-20 18:27:19,994] [12264] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_001_0000', 'weight': 21, 'path': 'D:\\COMP3900\\studies\\case_001_0000.nii.gz', 'ts': 1745059116, 'name': 'case_001_0000.nii.gz', 'strategy': {'random': {'ts': 1745137639, 'client_id': 'user-xyz'}}}
+[2025-04-20 18:27:36,366] [12264] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'lower_extremity_segmentation', 'image': 'case_001_0000', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-04-21 19:39:40,881] [23368] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-21 19:39:41,092] [23368] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-21 19:39:41,092] [23368] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-21 19:39:41,092] [23368] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-21 19:39:41,101] [23368] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-21 19:39:41,102] [23368] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-21 19:39:41,104] [23368] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-21 19:39:41,104] [23368] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-21 19:39:41,412] [23368] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-21 19:39:41,412] [23368] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-21 19:39:41,412] [23368] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-21 19:39:41,428] [23368] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x0000026C352DBA30>
+[2025-04-21 19:39:41,428] [23368] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-21 19:39:56,685] [23368] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 19:39:56,685] [23368] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_002_0000; Weight: 90778
+[2025-04-21 19:39:56,689] [23368] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_002_0000', 'weight': 90778, 'path': 'D:\\COMP3900\\studies\\case_002_0000.nii.gz', 'ts': 1745059116, 'name': 'case_002_0000.nii.gz', 'strategy': {'random': {'ts': 1745228396, 'client_id': 'user-xyz'}}}
+[2025-04-21 19:40:18,815] [23368] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'lower_extremity_segmentation', 'image': 'case_002_0000', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-04-21 19:44:50,357] [39208] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: D:\COMP3900\nnunet_model\monailabel_app; studies: D:\COMP3900\studies; conf: {'models': 'lower_extremity_segmentation'}
+[2025-04-21 19:44:50,423] [39208] [MainThread] [INFO] (monailabel.utils.others.class_utils:57) - Subclass for MONAILabelApp Found: <class 'main.MyApp'>
+[2025-04-21 19:44:50,424] [39208] [MainThread] [INFO] (monailabel.interfaces.app:135) - Init Datastore for: D:\COMP3900\studies
+[2025-04-21 19:44:50,424] [39208] [MainThread] [INFO] (monailabel.datastore.local:130) - Auto Reload: True; Extensions: ['*.nii.gz', '*.nii', '*.nrrd', '*.jpg', '*.png', '*.tif', '*.svs', '*.xml']
+[2025-04-21 19:44:50,435] [39208] [MainThread] [INFO] (monailabel.datastore.local:577) - Invalidate count: 0
+[2025-04-21 19:44:50,435] [39208] [MainThread] [INFO] (monailabel.datastore.local:151) - Start observing external modifications on datastore (AUTO RELOAD)
+[2025-04-21 19:44:50,438] [39208] [MainThread] [INFO] (monailabel.utils.sessions:51) - Session Path: C:\Users\FXGHH\.cache\monailabel\sessions
+[2025-04-21 19:44:50,438] [39208] [MainThread] [INFO] (monailabel.utils.sessions:52) - Session Expiry (max): 3600
+[2025-04-21 19:44:50,810] [39208] [MainThread] [INFO] (main:23) - Registered MONAI Label task: lower_extremity_segmentation
+[2025-04-21 19:44:50,810] [39208] [MainThread] [INFO] (monailabel.interfaces.app:469) - App Init - completed
+[2025-04-21 19:44:50,811] [39208] [MainThread] [INFO] (timeloop:60) - Starting Timeloop..
+[2025-04-21 19:44:50,812] [39208] [MainThread] [INFO] (timeloop:42) - Registered job <function MONAILabelApp.on_init_complete.<locals>.run_scheduler at 0x00000211A5E6BA30>
+[2025-04-21 19:44:50,812] [39208] [MainThread] [INFO] (timeloop:63) - Timeloop now started. Jobs will run based on the interval set
+[2025-04-21 19:44:56,132] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 19:44:56,133] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_001_0000; Weight: 91078
+[2025-04-21 19:44:56,136] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_001_0000', 'weight': 91078, 'path': 'D:\\COMP3900\\studies\\case_001_0000.nii.gz', 'ts': 1745059116, 'name': 'case_001_0000.nii.gz', 'strategy': {'random': {'ts': 1745228696, 'client_id': 'user-xyz'}}}
+[2025-04-21 19:45:00,939] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 19:45:00,940] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_000_0000; Weight: 91082
+[2025-04-21 19:45:00,942] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_000_0000', 'weight': 91082, 'path': 'D:\\COMP3900\\studies\\case_000_0000.nii.gz', 'ts': 1745059116, 'name': 'case_000_0000.nii.gz', 'strategy': {'random': {'ts': 1745228700, 'client_id': 'user-xyz'}}}
+[2025-04-21 19:45:07,635] [39208] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'lower_extremity_segmentation', 'image': 'case_000_0000', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-04-21 20:00:16,442] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 20:00:16,451] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_002_0000; Weight: 916
+[2025-04-21 20:00:16,482] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_002_0000', 'weight': 916, 'path': 'D:\\COMP3900\\studies\\case_002_0000.nii.gz', 'ts': 1745059116, 'name': 'case_002_0000.nii.gz', 'strategy': {'random': {'ts': 1745229616, 'client_id': 'user-xyz'}}}
+[2025-04-21 20:09:09,170] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 20:09:09,173] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_000_0000; Weight: 1449
+[2025-04-21 20:09:09,179] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_000_0000', 'weight': 1449, 'path': 'D:\\COMP3900\\studies\\case_000_0000.nii.gz', 'ts': 1745059116, 'name': 'case_000_0000.nii.gz', 'strategy': {'random': {'ts': 1745230149, 'client_id': 'user-xyz'}}}
+[2025-04-21 20:09:16,580] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 20:09:16,581] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_001_0000; Weight: 7
+[2025-04-21 20:09:16,585] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_001_0000', 'weight': 7, 'path': 'D:\\COMP3900\\studies\\case_001_0000.nii.gz', 'ts': 1745059116, 'name': 'case_001_0000.nii.gz', 'strategy': {'random': {'ts': 1745230156, 'client_id': 'user-xyz'}}}
+[2025-04-21 20:09:21,888] [39208] [MainThread] [INFO] (monailabel.endpoints.infer:169) - Infer Request: {'model': 'lower_extremity_segmentation', 'image': 'case_001_0000', 'result_extension': '.nrrd', 'result_dtype': 'uint8', 'client_id': 'user-xyz'}
+[2025-04-21 20:10:32,612] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:44) - Active Learning Request: {'strategy': 'random', 'client_id': 'user-xyz'}
+[2025-04-21 20:10:32,614] [39208] [MainThread] [INFO] (monailabel.tasks.activelearning.random:47) - Random: Selected Image: case_002_0000; Weight: 83
+[2025-04-21 20:10:32,627] [39208] [MainThread] [INFO] (monailabel.endpoints.activelearning:60) - Next sample: {'id': 'case_002_0000', 'weight': 83, 'path': 'D:\\COMP3900\\studies\\case_002_0000.nii.gz', 'ts': 1745059116, 'name': 'case_002_0000.nii.gz', 'strategy': {'random': {'ts': 1745230232, 'client_id': 'user-xyz'}}}
