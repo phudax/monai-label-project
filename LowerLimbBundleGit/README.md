@@ -28,6 +28,7 @@ LowerLimbBundle/
 |       └── lowerlimb.py       # Training task implementation
 ├── model/
 │   └── model.pt               # Pretrained weights
+├── imagesTr/                  # Data and labels
 ├── main.py                    # MONAI-LabelApp
 └── README.md                  # You are here
 ```
