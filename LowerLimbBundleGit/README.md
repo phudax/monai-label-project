@@ -55,6 +55,7 @@ conda activate env-name-here
 
 ### 3. Python package installation
 
+Ensure that the Conda environment is active and install the packages.
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
