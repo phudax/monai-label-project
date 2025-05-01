@@ -1,6 +1,0 @@
-monai>=1.0.0
-monailabel>=0.5.0
-nnunet>=2.0.0
-torch>=1.9.0
-numpy>=1.19.0
-batchgenerators>=0.25.0 

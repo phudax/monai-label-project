@@ -96,7 +96,8 @@ class LowerLimb(TaskConfig):
         self.epistemic_enabled = strtobool(conf.get("epistemic_enabled", "false"))
         self.epistemic_samples = int(conf.get("epistemic_samples", "5"))
         logger.info(f"EPISTEMIC Enabled: {self.epistemic_enabled}; Samples: {self.epistemic_samples}")
-
+    
+    # define infer task
     def infer(self) -> Union[InferTask, Dict[str, InferTask]]:
         task: InferTask = lib.infer.lowerlimb.LowerLimb(
             path=self.path,
@@ -109,6 +110,7 @@ class LowerLimb(TaskConfig):
         )
         return task
 
+    # define training task
     def trainer(self) -> Optional[TrainTask]:
         output_dir = os.path.join(self.model_dir, self.name)
         load_path = self.path
@@ -126,12 +128,14 @@ class LowerLimb(TaskConfig):
         )
         return task
 
+    # define strategy for sample selection
     def strategy(self) -> Union[None, Strategy, Dict[str, Strategy]]:
         strategies: Dict[str, Strategy] = {}
         if self.epistemic_enabled:
             strategies[f"{self.name}_epistemic"] = Epistemic()
         return strategies
 
+    # define scoring methods for model evaluation
     def scoring_method(self) -> Union[None, ScoringMethod, Dict[str, ScoringMethod]]:
         methods: Dict[str, ScoringMethod] = {
             "dice": Dice(),

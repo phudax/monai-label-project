@@ -45,7 +45,15 @@ git clone https://github.com/unsw-cse-comp99-3900/capstone-project-2025-t1-25t1-
 cd LowerLimbBundle
 ```
 
-### 2. Create and activate a Conda environment
+### 2. Download and insert the model weights
+
+Download the model weights from:
+
+```https://drive.google.com/file/d/1UZqPAiSkSo7kg4IAmmYi3IdTnFX4Gc0X/view?usp=sharing```
+
+And move the file into the ```model/``` folder in LowerLimbBundle to match the repository structure above.
+
+### 3. Create and activate a Conda environment
 
 ```bash
 conda create -n env-name-here -c conda-forge python=3.10
@@ -53,7 +61,7 @@ conda create -n env-name-here -c conda-forge python=3.10
 conda activate env-name-here
 ```
 
-### 3. Python package installation
+### 4. Python package installation
 
 Ensure that the Conda environment is active and install the packages.
 ```bash
