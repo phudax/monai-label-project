@@ -103,7 +103,7 @@ To interact with the server on 3DSlicer:
 2. Type in the server URL and click the green refresh button to connect to the server
 <img src="image-1.png" alt="interface" width="700" height="600"/>
 
-3. From here you can add a volume to 3DSlicer as you usually would and then press the blue arrow to upload it to the server's database.
+3. You can then add a volume to 3DSlicer as you usually would (or drag and drop a sample volume) and then press the blue arrow to upload it to the server's database.
 <img src="image-2.png" alt="interface" width="700" height="600"/>
 
 4. After that you can use the available drop-down menus to handle auto-segmentation, editing segments and active learning.
