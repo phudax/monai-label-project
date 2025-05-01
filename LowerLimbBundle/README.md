@@ -76,19 +76,19 @@ pip install monai monailabel
 
 ### 1. Start the MONAI-Label server
 
-Enter the LowerLimbBundle directory and start the server. Point at your directory of CT image volumes:
+With your environment active, enter the LowerLimbBundle directory and start the server.
 
 ```bash
 monailabel start_server --app . --studies imagesTr --conf models lowerlimb
 ```
 
-- **app**: path to this bundle (contains `main.py`).
-- **studies**: folder with your `.nii.gz` volumes.
+- **--app**: path to this bundle (contains `main.py`).
+- **--studies**: folder with `.nii.gz` volumes.
 - **--conf models lowerlimb**: selects the LowerLimb inference & train tasks.
 
-Training logs, checkpoints, and re-trained models will live under `model/lowerlimb/train_<name>/`.
+Training logs, model checkpoints, and re-trained models will live under `model/lowerlimb/train_<name>/`.
 
-To deploy the newly trained weights, copy the chosen `model.pt` into the root `model/model.pt` and restart:
+To deploy the newly trained weights, copy the chosen `model.pt` into the root `model/model.pt` and restart the server:
 
 ---
 
