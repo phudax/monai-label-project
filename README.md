@@ -1,1 +1,1 @@
-Open the README.md file in ```LowerLimbBundle``` for instructions
+Open ```LowerLimbBundle``` for instructions
