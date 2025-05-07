@@ -1,0 +1,7 @@
+monai
+torch
+torchvision
+nibabel
+PyYAML
+fire
+boto3

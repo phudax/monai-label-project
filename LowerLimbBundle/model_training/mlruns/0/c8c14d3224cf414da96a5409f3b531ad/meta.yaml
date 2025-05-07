@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/PycharmProjects/PythonProject1/MONAI/monai/apps/auto3dseg/model_training/mlruns/0/c8c14d3224cf414da96a5409f3b531ad/artifacts
+end_time: 1745525183476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8c14d3224cf414da96a5409f3b531ad
+run_name: segresnet - fold0 - train
+run_uuid: c8c14d3224cf414da96a5409f3b531ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745525151448
+status: 3
+tags: []
+user_id: User

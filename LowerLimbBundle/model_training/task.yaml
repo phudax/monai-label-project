@@ -1,0 +1,5 @@
+# task.yaml
+modality: "CT"               # REQUIRED: CT (or MR)
+dataroot: "./datasets"               # folder containing imagesTr/ & labelsTr/
+datalist: "./task.json"  # your datalist with image/label paths
+
