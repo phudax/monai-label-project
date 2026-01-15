@@ -40,7 +40,7 @@ LowerLimbBundle/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/unsw-cse-comp99-3900/capstone-project-2025-t1-25t1-3900-f13a-APPLE.git
+git clone 
 
 cd LowerLimbBundle
 ```
