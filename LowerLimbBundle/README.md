@@ -40,7 +40,7 @@ LowerLimbBundle/
 ### 1. Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/phudax/monai-label-project.git
 
 cd LowerLimbBundle
 ```
